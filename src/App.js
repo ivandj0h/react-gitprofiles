@@ -1,7 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="container">
       <h3>Welcome to React Profile's Finder</h3>
